@@ -1,0 +1,39 @@
+nav,
+section {
+    margin: 1em 0;
+}
+
+nav {
+    background-color: black;
+    padding: .5em 1em;
+}
+
+nav h1 {
+    color: white;
+}
+
+h1 > span {
+    color: aqua;
+}
+
+section#projects {
+    background-color: rebeccapurple;
+    padding: 1em;
+}
+
+section#projects h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+section#contact {
+    background-color: cornflowerblue;
+    padding: .5em;
+    text-align: right;
+}
+
+section#contact h3 {
+    color: black;
+    text-decoration: underline;
+}
